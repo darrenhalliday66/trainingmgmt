@@ -2,5 +2,8 @@
 <database>
     <element label="Course" max_length="40" name="x_snc_training_course" type="collection">
         <element label="Course Name" max_length="40" name="course_name" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
     </element>
 </database>
